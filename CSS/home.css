@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --cream : #EFDCCB;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    margin-top: 35px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .left-side{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-side{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-side .right-leftside{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-right: 160px;
+}
+
+.navbar .right-side .right-leftside p{
+    font-size: 20px;
+}
+
+.navbar .right-side .right-rightside{
+    display: flex;
+    align-items: center;
+}
+
+/* Hero */
+
+.hero-container{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.hero-container .left-side{
+    width: 617px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero-container .left-side h1{
+    font-size: 60px;
+}
+
+.hero-container .left-side p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+.hero-container .left-side button{
+    width: 235px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    background-color: var(--cream);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Voucher */
+.voucher-banner{
+    margin-top: 104px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Product section */
+.products-type{
+    margin-top: 105px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.products-type .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.products-type .card-container button{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    background-color: var(--cream);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+
